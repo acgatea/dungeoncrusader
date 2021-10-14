@@ -1,4 +1,4 @@
-# Dungeon Crusader
+# Dungeon Crusader (C++)
 A video game based on Rogue, implemented in object-oriented C++.
 
-
+Build using makefile.
