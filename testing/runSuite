@@ -1,0 +1,47 @@
+#!/bin/bash
+if test ! ${#} = 1 ; then #2
+  >&2 echo 'Incorrect number of command line arguments.'
+  exit 1
+fi
+i=1
+while read line ; do
+  infile=$line'.in'
+  outfile=$line'.out'
+  if test ! -r $infile  ; then
+    >&2 echo 'Error: The file '$infile' was not found or is unreadable.'
+    exit 2
+  fi
+  if test ! -r $outfile ; then
+    >&2 echo 'Error: The file '$outfile' was not found or is unreadable.'
+    exit 2
+  fi
+  resultfile=`mktemp`
+
+  if [ ${i} -lt 11 ] ; then
+    cat $infile | ./dc.exe ./configurations/random.txt $((${i}+100)) > $resultfile
+  elif [ ${i} -lt 21 ] ; then
+    cat $infile | ./dc.exe ./configurations/floorConfig.txt $((${i}+100)) > $resultfile  
+  elif [ ${i} -lt 31 ] ; then
+    cat $infile | ./dc.exe ./configurations/full.txt $((${i}+100)) > $resultfile  
+  elif [ ${i} -lt 41 ] ; then
+    cat $infile | ./dc.exe ./configurations/oneEnemy.txt $((${i}+100)) > $resultfile  
+  elif [ ${i} -lt 51 ] ; then
+    cat $infile | ./dc.exe ./configurations/merchantMania.txt $((${i}+100)) > $resultfile  
+  elif [ ${i} -lt 61 ] ; then
+    cat $infile | ./dc.exe ./configurations/surrounded.txt $((${i}+100)) > $resultfile  
+  fi
+  i=$((${i}+1))
+
+  if diff $resultfile $outfile > /dev/null ; then
+    continue
+  else
+    echo 'Test failed: '$line
+    echo 'Input:'
+    cat $infile
+    echo 'Expected:'
+    cat $outfile
+    echo 'Actual:'
+    cat $resultfile
+  fi
+  rm $resultfile
+done < ${1}

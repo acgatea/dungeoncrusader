@@ -1,0 +1,224 @@
+Please enter a race or quit. Available races:
+s (Shade):   125 HP, 25 Atk, 25 Def, final score magnified by 1.5
+d (Drow):    150 HP, 25 Atk, 15 Def, all potions have their effect magnified by 1.5
+v (Vampire):  50 HP, 25 Atk, 25 Def, gains 5 HP every successful attack and has no maximum HP
+t (Troll):   120 HP, 25 Atk, 15 Def, regains 5 HP every turn (HP capped at 120)
+g (Goblin):  110 HP, 15 Atk, 20 Def, steals 5 gold from every slain enemy
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |L....P.P..................|        |.................G.....|               |
+| |............W.............+########+.......................|-------|       |
+| |.................P........|   #    |..........................G.E..|--|    |
+| |P......................P..|   #    |M........G............O...........|--| |
+| |----------+---------------|   #    |----+----------------|............E..| |
+|            #                 #############                |\..............| |
+|            #                 #     |-----+------|         |.P.............| |
+|            #                 #     |........P.W.|         |..........G....| |
+|            ###################     |..MLE......O|   ######+...............| |
+|            #                 #     |............|   #     |E.........W....| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.......P.............|     #           #          #         |----+------| |
+|  |W....................|     ########################         |E..........| |
+|  |.....................|     #           #                    |........H..| |
+|  |.....................|     #    |------+--------------------|...E..G.G..| |
+|  |.....................|     #    |.........@GD...........WH.PM...........| |
+|  |.....................+##########+.L...............PP....................| |
+|  |P............H.......|          |......G..................M.............| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    0	Race:    Shade (final score magnified by 1.5)
+HP:      125	Atk:     25	Def:     25
+Action:  Player Character has spawned.
+
+Please enter a command.
+Invalid command.
+********************************************************************************
+Valid in-game commands: 
+ no,so,ea,we,ne,nw,se,sw -- moves player in this direction
+ a <direction> -- attacks enemy indicated by direction
+ t <direction> -- trades with merchant indicated by direction
+ h -- help
+ q -- quit
+ r -- restart
+********************************************************************************
+
+Please enter a command.
+********************************************************************************
+Please choose a help option: 
+ b -- back to game
+ c -- available commands
+ e -- enemy info
+ f -- floor info
+ l -- legend
+ r -- rules
+********************************************************************************
+********************************************************************************
+Valid in-game commands: 
+ no,so,ea,we,ne,nw,se,sw -- moves player in this direction
+ a <direction> -- attacks enemy indicated by direction
+ t <direction> -- trades with merchant indicated by direction
+ h -- help
+ q -- quit
+ r -- restart
+********************************************************************************
+********************************************************************************
+Please choose a help option: 
+ b -- back to game
+ c -- available commands
+ e -- enemy info
+ f -- floor info
+ l -- legend
+ r -- rules
+********************************************************************************
+********************************************************************************
+                                    ENEMIES
+H (Human):    140 HP, 20 Atk, 20 Def, drops 2 normal piles of gold
+W (Dwarf):    100 HP, 20 Atk, 30 Def, 
+              Vampires are allergic to dwarves and lose5 HP rather than gain
+L (Halfling): 100 HP, 15 Atk, 20 Def, 
+              has a 50% to beguile the player character and cause them to miss
+E (Elf):      140 HP, 30 Atk, 10 Def, gets 2 attacks against every race except Drow
+O (Orc):      180 HP, 30 Atk, 25 Def, does 50% more damage to goblins
+D (Dragon):   150 HP, 20 Atk, 20 Def, always guards a treasure hoard
+M (Merchant): 30 HP, 70 Atk, 5 Def, trades potions
+********************************************************************************
+********************************************************************************
+Please choose a help option: 
+ b -- back to game
+ c -- available commands
+ e -- enemy info
+ f -- floor info
+ l -- legend
+ r -- rules
+********************************************************************************
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |L....P.P..................|        |.................G.....|               |
+| |............W.............+########+.......................|-------|       |
+| |.................P........|   #    |..........................G.E..|--|    |
+| |P......................P..|   #    |M........G............O...........|--| |
+| |----------+---------------|   #    |----+----------------|............E..| |
+|            #                 #############                |\..............| |
+|            #                 #     |-----+------|         |.P.............| |
+|            #                 #     |........P.W.|         |..........G....| |
+|            ###################     |..MLE......O|   ######+...............| |
+|            #                 #     |............|   #     |E.........W....| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.......P.............|     #           #          #         |----+------| |
+|  |W....................|     ########################         |E..........| |
+|  |.....................|     #           #                    |........H..| |
+|  |.....................|     #    |------+--------------------|...E..G.G..| |
+|  |.....................|     #    |.........@GD...........WH.PM...........| |
+|  |.....................+##########+.L...............PP....................| |
+|  |P............H.......|          |......G..................M.............| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    0	Race:    Shade (final score magnified by 1.5)
+HP:      125	Atk:     25	Def:     25
+********************************************************************************
+Please choose a help option: 
+ b -- back to game
+ c -- available commands
+ e -- enemy info
+ f -- floor info
+ l -- legend
+ r -- rules
+********************************************************************************
+********************************************************************************
+                                     LEGEND
+ -,|: walls                              #: passage                                                                          
+ +: doorway                              \: stairway to next floor                                                           
+ G: gold pile (type hidden)              P: potion (type hidden)                                                             
+ @: you                                  H: human (enemy)                                                                    
+ W: dwarf (enemy)                        L: halfling (enemy)                                                                 
+ E: elf (enemy)                          O: orc (enemy)                                                                      
+ M: merchant (enemy)                     D: dragon (enemy)                                                                   
+********************************************************************************
+********************************************************************************
+Please choose a help option: 
+ b -- back to game
+ c -- available commands
+ e -- enemy info
+ f -- floor info
+ l -- legend
+ r -- rules
+********************************************************************************
+********************************************************************************
+                       DUNGEON CRUSADER GAME RULES
+The object of the game is to move through the Player Character (@)
+through various floors (levels) items.
+
+To move to the next floor, PC must reach the stairs (\).
+The final score is the amount of gold collected times a race-specific
+multiplier. 
+
+Items come in two forms: gold (G) and potions (P).
+Potions may have positive or negative effects, which may
+be temporary (only on the current floor) or permanent. 
+Gold comes in various pile types. A dragon hoarde cannot be picked up
+until the guarding Dragon is slain.
+To collect an item, the PC must move on the tile containing the item.
+
+PC might encounter enemies. An enemy will always attack the PC if it
+it is within a 1 block radius of that enemy. Enemies do not move out
+of their chamber.
+
+Merchants are neutral unless one is killed by the PC, at which point
+they become hostile like all other enemies. PC may barter with non-hostile
+merchants for potions. Merchants may steal gold during transactions.
+
+The PC may choose to attack an enemy in a 1 block radius. Defeated 
+enemies drop piles of gold. If the PC is slain, the game is over.
+
+The user may quit or restart the game any time.
+
+********************************************************************************
+********************************************************************************
+Please choose a help option: 
+ b -- back to game
+ c -- available commands
+ e -- enemy info
+ f -- floor info
+ l -- legend
+ r -- rules
+********************************************************************************
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |L....P.P..................|        |.................G.....|               |
+| |............W.............+########+.......................|-------|       |
+| |.................P........|   #    |..........................G.E..|--|    |
+| |P......................P..|   #    |M........G............O...........|--| |
+| |----------+---------------|   #    |----+----------------|............E..| |
+|            #                 #############                |\..............| |
+|            #                 #     |-----+------|         |.P.............| |
+|            #                 #     |........P.W.|         |..........G....| |
+|            ###################     |..MLE......O|   ######+...............| |
+|            #                 #     |............|   #     |E.........W....| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.......P.............|     #           #          #         |----+------| |
+|  |W....................|     ########################         |E..........| |
+|  |.....................|     #           #                    |........H..| |
+|  |.....................|     #    |------+--------------------|...E..G.G..| |
+|  |.....................|     #    |.........@GD...........WH.PM...........| |
+|  |.....................+##########+.L...............PP....................| |
+|  |P............H.......|          |......G..................M.............| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    0	Race:    Shade (final score magnified by 1.5)
+HP:      125	Atk:     25	Def:     25
+Back to the game.
+
+Please enter a command.
+You quit.
