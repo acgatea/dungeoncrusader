@@ -1,0 +1,151 @@
+Please enter a race or quit. Available races:
+s (Shade):   125 HP, 25 Atk, 25 Def, final score magnified by 1.5
+d (Drow):    150 HP, 25 Atk, 15 Def, all potions have their effect magnified by 1.5
+v (Vampire):  50 HP, 25 Atk, 25 Def, gains 5 HP every successful attack and has no maximum HP
+t (Troll):   120 HP, 25 Atk, 15 Def, regains 5 HP every turn (HP capped at 120)
+g (Goblin):  110 HP, 15 Atk, 20 Def, steals 5 gold from every slain enemy
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |..........................|        |.......................|               |
+| |..........................+########+.......................|-------|       |
+| |..........................|   #    |...............................|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|...............| |
+|            #                 #############                |...............| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |@MP.........|         |...............| |
+|            ###################     |MLP.........|   ######+...............| |
+|            #                 #     |PPP.........|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |........\............|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    0	Race:    Shade (final score magnified by 1.5)
+HP:      125	Atk:     25	Def:     25
+Action:  Player Character has spawned.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid trade. This character is not interested in a trade.
+
+Please enter a command.
+Invalid trade. This character is not interested in a trade.
+
+Please enter a command.
+The game restarts.
+Please enter a race or quit. Available races:
+s (Shade):   125 HP, 25 Atk, 25 Def, final score magnified by 1.5
+d (Drow):    150 HP, 25 Atk, 15 Def, all potions have their effect magnified by 1.5
+v (Vampire):  50 HP, 25 Atk, 25 Def, gains 5 HP every successful attack and has no maximum HP
+t (Troll):   120 HP, 25 Atk, 15 Def, regains 5 HP every turn (HP capped at 120)
+g (Goblin):  110 HP, 15 Atk, 20 Def, steals 5 gold from every slain enemy
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |..........................|        |.......................|               |
+| |..........................+########+.......................|-------|       |
+| |..........................|   #    |...............................|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|...............| |
+|            #                 #############                |...............| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |@MP.........|         |...............| |
+|            ###################     |MLP.........|   ######+...............| |
+|            #                 #     |PPP.........|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |........\............|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    0	Race:    Troll (regains 5 HP every turn (HP capped at 120))
+HP:      120	Atk:     25	Def:     15
+Action:  Player Character has spawned.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid trade. This character is not interested in a trade.
+
+Please enter a command.
+Invalid attack. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid attack. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid attack. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+You quit.

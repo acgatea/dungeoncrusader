@@ -1,0 +1,260 @@
+Please enter a race or quit. Available races:
+s (Shade):   125 HP, 25 Atk, 25 Def, final score magnified by 1.5
+d (Drow):    150 HP, 25 Atk, 15 Def, all potions have their effect magnified by 1.5
+v (Vampire):  50 HP, 25 Atk, 25 Def, gains 5 HP every successful attack and has no maximum HP
+t (Troll):   120 HP, 25 Atk, 15 Def, regains 5 HP every turn (HP capped at 120)
+g (Goblin):  110 HP, 15 Atk, 20 Def, steals 5 gold from every slain enemy
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |GD........................|        |.......................|               |
+| |..........................+########+..........D............|-------|       |
+| |...............GGD........|   #    |..........G...................\|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|......G........| |
+|            #                 #############                |.....D.........| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |GGGGG@GMMMMM|         |...............| |
+|            ###################     |GMMMMMMMMMMM|   ######+...............| |
+|            #                 #     |MMMMMMMMMMMM|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |.....................|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    0	Race:    Drow (all potions have their effect magnified by 1.5)
+HP:      150	Atk:     25	Def:     15
+Action:  Player Character has spawned.
+
+Please enter a command.
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |GD........................|        |.......................|               |
+| |..........................+########+..........D............|-------|       |
+| |...............GGD........|   #    |..........G...................\|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|......G........| |
+|            #                 #############                |.....D.........| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |GGGG@MGMMMMM|         |...............| |
+|            ###################     |GMMMMMMMMMMM|   ######+...............| |
+|            #                 #     |MMMMMMMMMMM.|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |.....................|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    1	Race:    Drow (all potions have their effect magnified by 1.5)
+HP:      150	Atk:     25	Def:     15
+Action:  Player Character moves west.
+	 Player Character picks up a Small Hoard (value 1).
+
+Please enter a command.
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |GD........................|        |.......................|               |
+| |..........................+########+..........D............|-------|       |
+| |...............GGD........|   #    |..........G...................\|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|......G........| |
+|            #                 #############                |.....D.........| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |GGG@MMGMMMMM|         |...............| |
+|            ###################     |GMMMMMMMMMM.|   ######+...............| |
+|            #                 #     |MMMMMMMMMM.M|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |.....................|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    2	Race:    Drow (all potions have their effect magnified by 1.5)
+HP:      150	Atk:     25	Def:     15
+Action:  Player Character moves west.
+	 Player Character picks up a Small Hoard (value 1).
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |GD........................|        |.......................|               |
+| |..........................+########+..........D............|-------|       |
+| |...............GGD........|   #    |..........G...................\|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|......G........| |
+|            #                 #############                |.....D.........| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |GG@MMMGMMMM.|         |...............| |
+|            ###################     |GMMMMMMMMM.M|   ######+...............| |
+|            #                 #     |MMMMMMMMM.MM|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |.....................|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    6	Race:    Drow (all potions have their effect magnified by 1.5)
+HP:      150	Atk:     25	Def:     15
+Action:  Player Character moves west.
+	 Player Character picks up a Merchant Hoard (value 4).
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+Invalid move. ERROR: Tile is not walkable.
+
+Please enter a command.
+Invalid move. ERROR: Cannot move to occupied cell.
+
+Please enter a command.
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| |--------------------------|        |-----------------------|               |
+| |GD........................|        |.......................|               |
+| |..........................+########+..........D............|-------|       |
+| |...............GGD........|   #    |..........G...................\|--|    |
+| |..........................|   #    |..................................|--| |
+| |----------+---------------|   #    |----+----------------|......G........| |
+|            #                 #############                |.....D.........| |
+|            #                 #     |-----+------|         |...............| |
+|            #                 #     |GG@MMMGMMMMM|         |...............| |
+|            ###################     |GMMMMMMMMMMM|   ######+...............| |
+|            #                 #     |MMMMMMM..MM.|   #     |...............| |
+|            #                 #     |-----+------|   #     |--------+------| |
+|  |---------+-----------|     #           #          #              #        |
+|  |.....................|     #           #          #         |----+------| |
+|  |.....................|     ########################         |...........| |
+|  |.....................|     #           #                    |...........| |
+|  |.....................|     #    |------+--------------------|...........| |
+|  |.....................|     #    |.......................................| |
+|  |.....................+##########+.......................................| |
+|  |.....................|          |.......................................| |
+|  |---------------------|          |---------------------------------------| |
+|                                                                             |
+|-----------------------------------------------------------------------------|
+                                 Floor 1
+Gold:    6	Race:    Drow (all potions have their effect magnified by 1.5)
+HP:      30	Atk:     25	Def:     15
+Action:  Player Character attacks east.
+	 Merchants are now hostile to Player Character.
+	 @ does 23 damage to M (7 HP).
+	 Player character dodges attack.
+	 M does 60 damage to @ (90 HP).
+	 Player character dodges attack.
+	 M does 60 damage to @ (30 HP).
+
+Please enter a command.
+The Player Character has been slain. Final Player Character Statistics: 
+Gold:    10	Race:    Drow (all potions have their effect magnified by 1.5)
+HP:      0	Atk:     25	Def:     15
+Action:  Player Character attacks east.
+	 @ does 23 damage to M (0 HP).
+	 M is slain.
+	 Player Character picks up a Merchant Hoard (value 4).
+	 M does 60 damage to @ (0 HP).
+Game over.
