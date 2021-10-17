@@ -7,3 +7,5 @@ Can pass one command-line argument, a filename for the file containing the enemy
 If called without command-line arguments, then the empty board configuration is populated randomly with enemies and the PC.
 
 The AI's moves are generated randomly. 
+
+Source files in src/include, various board configurations used for testing in configurations.
