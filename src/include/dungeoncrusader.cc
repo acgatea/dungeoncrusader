@@ -13,11 +13,18 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    srand(time(NULL));
+    int seed = time(NULL);
+    // gets seed for testing, if any
+    if (argc == 3) {
+        istringstream is (argv[2]);
+        is >> seed;
+        cerr << seed << endl;
+    } // if
+    srand(seed);
 
     // gets filename for floor configurations (if any)
     string filename = constants::EMPTY_CONFIG;
-    if (argc == 2) {
+    if (argc >= 2) {
         istringstream is (argv[1]);
         is >> filename;
     } // if
