@@ -9,3 +9,5 @@ If called without command-line arguments, then the empty board configuration is 
 The AI's moves are generated randomly. 
 
 Source files in src/include, various board configurations used for testing in configurations.
+
+./testing/testList contains the list of tests. Testing is executed via: ./testing/runScript ./testing/testList
